@@ -1,0 +1,199 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: sports_news
+  examples: |
+    - What's the latest sports news?
+    - Any updates on the sports front?
+    - Can you tell me about recent sports events?
+    - What's happening in the sports world?
+    - I'm interested in sports updates.
+    - Any scores from recent games?
+    - Tell me about any major sports headlines.
+    - Have there been any big upsets in sports recently?
+    - I want to know about sports highlights.
+    - What are the top sports stories right now?
+
+- intent: sports_schedule
+  examples: |
+    - When is the next game for [team/league]?
+    - Can you provide me with the schedule for [team/league]?
+    - What time is the match between [team 1] and [team 2]?
+    - Is there a game scheduled for [date]?
+    - I need to know when [team] plays next.
+    - When is the next match in [league]?
+    - Can you give me the upcoming fixtures for [team/league]?
+    - What's the timetable for [sporting event]?
+
+- intent: sports_scores
+  examples: |
+    - What was the score of the game between [team 1] and [team 2]?
+    - Can you tell me the latest scores?
+    - Who won the match between [team 1] and [team 2]?
+    - What were the results of yesterday's games?
+    - How did [team] do in their last match?
+    - Did [team] win their last game?
+    - Can you update me on the scores from [league]?
+    - Give me the score updates for [team/league].
+    - Any close games recently?
+
+- intent: sports_standings
+  examples: |
+    - What's the current standing in [league]?
+    - Can you tell me the [league] standings?
+    - Where does [team] rank in the [league] standings?
+    - Who's at the top of the table in [league]?
+    - How is [team] performing in the league?
+    - Show me the standings for [division/conference].
+    - I want to know who's leading in [league].
+    - Any surprises in the current standings?
+
+- intent: sports_analysis
+  examples: |
+    - Can you provide some analysis on [team/league] performance?
+    - What are the strengths and weaknesses of [team]?
+    - I'm interested in a breakdown of recent games.
+    - Analyze the current form of [team/athlete].
+    - Give me insights into the strategy of [coach/team].
+    - How does [player] compare to others in their position?
+    - Discuss the tactics used by [team/athlete].
+    - Analyze the key matchups in the upcoming games.
+    - I want to understand the game plan of [team].
+
+- intent: sports_trivia
+  examples: |
+    - Tell me some interesting sports trivia.
+    - Do you have any fun facts about [sport/athlete]?
+    - I'm curious about little-known facts in sports.
+    - Share some sports history with me.
+    - Quiz me on sports trivia.
+    - What are some records in [sport] that are hard to beat?
+    - I want to learn something new about [sport/event/athlete].
+    - Test my knowledge with sports trivia questions.
+    - Give me some surprising facts about [sport/athlete].
+
+- intent: sports_injury_updates
+  examples: |
+    - Are there any injury updates for [team/athlete]?
+    - Can you provide information on recent injuries in [sport/league]?
+    - Have there been any significant injuries in [team] recently?
+    - What's the status of [athlete]'s injury?
+    - Any updates on players returning from injury?
+    - I'm concerned about injuries in [sport/league], any news?
+    - Give me the latest injury report for [team/league].
+    - How are injuries affecting [team]'s performance?
+    - Any updates on injured players expected to play soon?
+
+- intent: sports_transfer_news
+  examples: |
+    - Is there any transfer news in [sport/league]?
+    - Can you update me on player transfers in [sport/league]?
+    - Any rumors about player transfers in [team/league]?
+    - Have there been any significant signings in [sport/league]?
+    - I'm interested in transfer updates, what's new?
+    - Tell me about recent player movements in [sport/league].
+    - Any big transfers happening in [team/league]?
+    - What's the latest transfer gossip in [sport/league]?
+    - Discuss the impact of recent transfers on [team/league].
+
+- intent: sports_event_information
+  examples: |
+    - Can you provide details about [sporting event]?
+    - What's the venue for [sporting event]?
+    - When is [sporting event] scheduled to start?
+    - How can I watch [sporting event] live?
+    - Are tickets available for [sporting event]?
+    - Give me information about [sporting event] location and time.
+    - What's the format of [sporting event]?
+    - Is [sporting event] being broadcasted on TV?
+    - Can you tell me about the participants in [sporting event]?
+    - I want to know more about [sporting event], can you help?

@@ -1,0 +1,85 @@
+version: "3.1"
+
+rules:
+  - rule: Respond to greetings
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - rule: Respond to goodbyes
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - rule: Handle affirmations
+    steps:
+      - intent: affirm
+      - action: utter_affirm
+
+  - rule: Handle denials
+    steps:
+      - intent: deny
+      - action: utter_deny
+
+  - rule: Handle happy mood
+    steps:
+      - intent: mood_great
+      - action: utter_happy
+
+  - rule: Handle unhappy mood
+    steps:
+      - intent: mood_unhappy
+      - action: utter_cheer_up
+      - action: utter_did_that_help
+
+  - rule: bot challenge
+    steps:
+      - intent: bot_challenge
+      - action: utter_iamabot
+
+  - rule: Answer sports news queries
+    steps:
+      - intent: sports_news
+      - action: utter_sports_news
+
+  - rule: Provide sports schedule
+    steps:
+      - intent: sports_schedule
+      - action: utter_sports_schedule
+
+  - rule: Provide sports scores
+    steps:
+      - intent: sports_scores
+      - action: utter_sports_scores
+
+  - rule: Provide sports standings
+    steps:
+      - intent: sports_standings
+      - action: utter_sports_standings
+
+  - rule: Provide sports analysis
+    steps:
+      - intent: sports_analysis
+      - action: utter_sports_analysis
+
+  - rule: Share sports trivia
+    steps:
+      - intent: sports_trivia
+      - action: utter_sports_trivia
+
+  - rule: Update on sports injuries
+    steps:
+      - intent: sports_injury_updates
+      - action: utter_sports_injury_updates
+
+  - rule: Update on sports transfers
+    steps:
+      - intent: sports_transfer_news
+      - action: utter_sports_transfer_news
+
+  - rule: Provide sports event information
+    steps:
+      - intent: sports_event_information
+      - action: utter_sports_event_information
+
+  

@@ -1,0 +1,81 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+
+
+- story: bot challenge
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- story: sport news
+  steps:
+  - intent: sports_news
+  - action: utter_sports_news
+
+- story: sport schedule
+  steps: 
+  - intent: sports_schedule
+  - action: utter_sports_schedule
+
+- story: sports scores
+  steps:
+  - intent: sports_scores
+  - action:  utter_sports_scores
+
+- story: sports standings
+  steps:
+  - intent: sports_standings
+  - action: utter_sports_standings
+
+- story: sport analysis
+  steps:
+  - intent: sports_analysis
+  - action: utter_sports_analysis
+
+- story: sports trivia
+  steps:
+  - intent: sports_trivia
+  - action: utter_sports_trivia
+
+- story: sports injury updates
+  steps:
+  - intent: sports_injury_updates
+  - action: utter_sports_injury_updates
+
+- story: sports transfer news
+  steps:
+  - intent: sports_transfer_news
+  - action: utter_sports_transfer_news
+
+- story: sports event information
+  steps:
+  - intent: sports_event_information
+  - action: utter_sports_event_information
+
+
+
